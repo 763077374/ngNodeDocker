@@ -1,0 +1,36 @@
+git remote add origin
+git remote -v
+
+git add run.txt
+git commit -m "first commit"
+git branch
+git branch ngNodeDocker
+git checkout ngNodeDocker
+
+ngular server
+npm install -g @angular/cli
+ng new ngular-app
+cd ngular-app
+ng build
+ng server
+
+npm install express-generator -g
+express node-app
+install dependencies:
+     > cd node-app && npm install
+
+   run the app:
+     > SET DEBUG=node-app:* & npm start
+
+cd node-app
+npm  install mongoose --save-dev
+
+http://www.coderbro.com/docker/node/mongodb/2017/10/09/node-mongodb-docker-compose.html
+docker compose up
+
+git remote add origin https://github.com/763077374/ngNodeDocker.git
+git push -u origin master
+
+
+.ignore
+.\ngular-app\node_modules\*
